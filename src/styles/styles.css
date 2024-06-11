@@ -7,3 +7,14 @@
     src: url('/fonts/montserrat/Montserrat-VariableFont_wght.ttf');
 }
 
+.invert-color {
+    filter: invert(50%) brightness(200%) contrast(200%);
+    transition: filter 0.7s ease;
+}
+
+.skyline-img {
+    min-height: 75vh;
+    max-height: 34rem;
+    background-size: cover;
+}
+
