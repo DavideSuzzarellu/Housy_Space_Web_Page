@@ -7,14 +7,38 @@
     src: url('/fonts/montserrat/Montserrat-VariableFont_wght.ttf');
 }
 
-.invert-color {
-    filter: invert(50%) brightness(200%) contrast(200%);
-    transition: filter 0.7s ease;
+* {
+    box-sizing: border-box;
 }
 
-.skyline-img {
+.header-skyline {
+    background-image: linear-gradient(
+        to bottom,
+        hsl(184, 100%, 24%, 0.7),
+        hsl(184, 100%, 23%, 0.6),
+        hsl(184, 100%, 22%, 0.55),
+        hsla(184, 100%, 25%, 0.45),
+        hsl(184, 100%, 35%, 0.35),
+        hsl(184, 100%, 34%, 0.32),
+        hsl(178, 100%, 40%, 0.2)
+      ),
+      url(/images/skyline-barcelona.jpg);
+    background-size: cover;
+    background-position: center top 23%;
     min-height: 75vh;
     max-height: 34rem;
-    background-size: cover;
+}
+
+.invert-color {
+    filter: invert(50%) brightness(200%) contrast(200%);
+    transition: filter 0.20s ease-in-out;
+}
+
+.footer-skyline {
+    background-image: linear-gradient(to top, hsl(178, 100%, 37%), rgb(46, 74, 77));
+}
+
+.bg-button-offcanvas {
+    background-color: hsla(180, 89%, 7%, 0.575);
 }
 
