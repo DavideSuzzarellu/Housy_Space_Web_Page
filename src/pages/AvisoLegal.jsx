@@ -1,0 +1,42 @@
+import {NavbarPolitics} from "../components/NavbarPolitics.jsx"
+
+export const AvisoLegal = () => {
+    return (
+        <main className="container flex flex-col gap-4 px-10 mx-auto my-10 md:flex-row">
+            <NavbarPolitics/>
+            <section className="flex flex-col w-full gap-5 text-sm">
+                <h2 className="text-xl font-semibold text-pantole-dark">Aviso legal</h2>
+                <p>El presente aviso legal (en adelante, el «Aviso Legal») regula el uso del servicio del portal de Internet www.housyspace.com (en adelante, el «Web») de DAVIDE OGGIANO con domicilio social en C/ TRAVESSERA DE GRACIA 73, 2º-3ª, BARCELONA, 08006, BARCELONA con CIF Y4711994K.</p>
+                <h3 className="font-bold text-pantole-dark">Legislación</h3>
+                <p>Con carácter general las relaciones entre DAVIDE OGGIANO con los Usuarios de sus servicios telemáticos, presentes en la web, se encuentran sometidas a la legislación y jurisdicción españolas. </p>
+                <p>Las partes renuncian expresamente al fuero que les pudiera corresponder y someten expresamente a los Juzgados y Tribunales de BARCELONA para resolver cualquier controversia que pueda surgir en la interpretación o ejecución de las presentes condiciones contractuales.</p>
+                <h3 className="font-bold text-pantole-dark">Contenido y uso</h3>
+                <p>El Usuario queda informado, y acepta, que el acceso a la presente web no supone, en modo alguno, el inicio de una relación comercial con DAVIDE OGGIANO. </p>
+                <p>El titular del web no se identifica con las opiniones vertidas en el mismo por sus colaboradores. La Empresa se reserva el derecho de efectuar sin previo aviso las modificaciones que considere oportunas en su Web, pudiendo cambiar, suprimir o añadir tanto los contenidos y servicios que se presten a través de la misma como la forma en la que éstos aparezcan presentados o localizados en sus servidores.</p>
+                <h3 className="font-bold text-pantole-dark">Propiedad intelectual e industrial</h3>
+                <p>Los derechos de propiedad intelectual del contenido de las páginas web, su diseño gráfico y códigos son titularidad de DAVIDE OGGIANO y, por tanto, queda prohibida su reproducción, distribución, comunicación pública, transformación o cualquier otra actividad que se pueda realizar con los contenidos de sus páginas web ni aun citando las fuentes, salvo consentimiento por escrito de DAVIDE OGGIANO. Todos los nombres comerciales, marcas o signos distintos de cualquier clase contenidos en las páginas web de la Empresa son propiedad de sus dueños y están protegidos por ley.</p>
+                <h3 className="font-bold text-pantole-dark">Enlaces (Links)</h3>
+                <p>La presencia de enlaces (links) en las páginas web de DAVIDE OGGIANO tiene finalidad meramente informativa y en ningún caso supone sugerencia, invitación o recomendación sobre los mismos.</p>
+                <h3 className="font-bold text-pantole-dark">Confidencialidad y Protección de Datos</h3>
+                <p>A efecto de lo previsto en RGPD de 27 de abril de 2016, DAVIDE OGGIANO informa al Usuario de la existencia de un tratamiento automatizado de datos de carácter personal creado por y para DAVIDE OGGIANO y bajo su responsabilidad, con la finalidad de realizar el mantenimiento y gestión de la relación con el Usuario, así como las labores de información. En el momento de la aceptación de las presentes condiciones generales, DAVIDE OGGIANO precisará del Usuario la recogida de unos datos imprescindibles para la prestación de sus servicios.</p>
+                <h3 className="font-bold text-pantole-dark">Registro de ficheros y formularios</h3>
+                <p>La cumplimentación del formulario de registro es obligatoria para acceder y disfrutar de determinados servicios ofrecidos en la web. El no facilitar los datos personales solicitados o el no aceptar la presente política de protección de datos supone la imposibilidad de suscribirse, registrarse o participar en cualquiera de las promociones en las que se soliciten datos carácter personal.</p>
+                <p>A efecto de lo previsto en RGPD de 27 de abril de 2016, le informamos que los datos personales que se obtengan como consecuencia de su registro como Usuario, serán incorporados a un fichero titularidad de DAVIDE OGGIANO con C.I.F Y4711994K y domicilio en C/ TRAVESSERA DE GRACIA 73, 2º-3ª, BARCELONA, 08006, BARCELONA, teniendo implementadas las medidas de seguridad establecidas en el Real Decreto 1720/2007, de 11 de junio.</p>
+                <h3 className="font-bold text-pantole-dark">Exactitud y veracidad de los datos facilitados</h3>
+                <p>El Usuario es el único responsable de la veracidad y corrección de los datos incluidos, exonerándose DAVIDE OGGIANO de cualquier responsabilidad al respecto. Los usuarios garantizan y responden, en cualquier caso, de la exactitud, vigencia y autenticidad de los datos personales facilitados, y se comprometen a mantenerlos debidamente actualizados. El usuario acepta proporcionar información completa y correcta en el formulario de registro o suscripción. DAVIDE OGGIANO no responde de la veracidad de las informaciones que no sean de elaboración propia y de las que se indique otra fuente, por lo que tampoco asume responsabilidad alguna en cuanto a hipotéticos perjuicios que pudieran originarse por el uso de dicha información. DAVIDE OGGIANO se reserva el derecho a actualizar, modificar o eliminar la información contenida en sus páginas web pudiendo incluso limitar o no permitir el acceso a dicha información. Se exonera a DAVIDE OGGIANO de responsabilidad ante cualquier daño o perjuicio que pudiera sufrir el Usuario como consecuencia de errores, defectos u omisiones, en la información facilitada por DAVIDE OGGIANO siempre que proceda de fuentes ajenas a DAVIDE OGGIANO.</p>
+                <h3 className="font-bold text-pantole-dark">Cookies</h3>
+                <p>El sitio www.housyspace.com no utiliza cookies, considerando tales ficheros físicos de información alojados en el propio terminal del usuario y sirven para facilitar la navegación del usuario por el portal. De todas formas, el usuario tiene la posibilidad de configurar el navegador de tal modo que impida la instalación de estos archivos.</p>
+                <h3 className="font-bold text-pantole-dark">Finalidades</h3>
+                <p>Las finalidades de [NOMBRE_EMPRESA] son el mantenimiento y gestión de la relación con el Usuario, así como las labores de información.</p>
+                <h3 className="font-bold text-pantole-dark">Menores de edad</h3>
+                <p>En el supuesto que algunos de nuestros servicios vayan dirigidos específicamente a menores de edad, DAVIDE OGGIANO solicitará la conformidad de los padres o tutores para la recogida de los datos personales o, en su caso, para el tratamiento automatizado de los datos.</p>
+                <h3 className="font-bold text-pantole-dark">Cesión de datos a terceros</h3>
+                <p>DAVIDE OGGIANO no realizará cesión de datos de los usuarios a terceros.</p>
+                <h3 className="font-bold text-pantole-dark">Ejercicio de derechos de acceso, rectificación, cancelación y oposición</h3>
+                <p>Podrá dirigir sus comunicaciones y ejercitar los derechos de acceso, rectificación, supresión, limitación, portabilidad y oposición en la dirección de Internet a www.housyspace.com o bien por correo ordinario dirigido a DAVIDE OGGIANO, Ref. RGPD, en C/ TRAVESSERA DE GRACIA 73, 2º-3ª, BARCELONA, 08006, BARCELONA. Para ejercer dichos derechos es necesario que usted acredite su personalidad frente a DAVIDE OGGIANO mediante el envío de fotocopia de Documento Nacional de Identidad o cualquier otro medio válido en Derecho. No obstante, la modificación o rectificación de sus datos de registro se podrá realizar en el propio Site identificándose, previamente, con su usuario y contraseña.</p>
+                <h3 className="font-bold text-pantole-dark">Medidas de seguridad</h3>
+                <p>DAVIDE OGGIANO ha adoptado los niveles de seguridad de protección de los Datos Personales legalmente requeridos, y procuran instalar aquellos otros medios y medidas</p>
+            </section>
+        </main>
+    )
+}
