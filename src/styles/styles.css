@@ -18,7 +18,7 @@
         hsl(184, 100%, 24%, 0.7),
         hsl(184, 100%, 23%, 0.6),
         hsl(184, 100%, 22%, 0.55),
-        hsla(184, 100%, 25%, 0.45),
+        hsl(184, 100%, 25%, 0.45),
         hsl(184, 100%, 35%, 0.35),
         hsl(184, 100%, 34%, 0.32),
         hsl(178, 100%, 40%, 0.2)
@@ -30,13 +30,11 @@
     max-height: 34rem;
 }
 
-.invert-color {
-    filter: invert(50%) brightness(200%) contrast(200%);
-    transition: filter 0.20s ease-in-out;
-}
-
 .footer {
     background-image: linear-gradient(to top, hsl(178, 100%, 37%), rgb(46, 74, 77));
 }
 
-
+.star:after {
+    content: "\2605"; 
+    font-style: normal;
+}

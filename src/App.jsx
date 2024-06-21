@@ -11,6 +11,7 @@ import { PoliticaCookies } from "./pages/PoliticaCookies.jsx"
 import { Header } from "./components/Header.jsx"
 import { Footer } from "./components/Footer.jsx"
 import { Navbar } from "./components/Navbar.jsx"
+import { Contact } from "./pages/Contacto.jsx"
 
 function App() {
   const location = useLocation();
@@ -24,6 +25,7 @@ function App() {
         <Route path="/aviso-legal" element={<AvisoLegal />} />
         <Route path="/politica-privacidad" element={<PoliticaPrivacidad/>}/>
         <Route path="/politica-cookies" element={<PoliticaCookies/>} />
+        <Route path="/contacto" element={<Contact/>} />
       </Routes>
       <Footer />
     </>

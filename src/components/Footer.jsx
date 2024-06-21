@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 export const Footer = () => {
     return (
-        <footer className="flex flex-col">
+        <footer className="z-10 flex flex-col">
             <div className="flex flex-col items-center justify-around w-full gap-5 p-4 footer md:flex-row">
                 <section className="flex flex-col items-center justify-between w-full gap-2 pb-4 border-b-2 font-montserrat md:border-b-0 md:w-1/3">
                     <img src="/images/logo.svg" alt="Logo Housy Space" className="h-14 ms-10]" loading="lazy"/>
@@ -34,7 +34,7 @@ export const Footer = () => {
                                 <img className="size-8" src="/images/instagram.svg" alt="Logo Instagram" loading="lazy"/>
                                 <span className="font-semibold font-montserrat">Instagram</span>
                             </a>
-                            <a href="https://www.linkedin.com/in/housyspace-property-solution-51b53226a/" target="_blank" className="flex flex-col items-center justify-center transition duration-300 invert hover:scale-125">
+                            <a href="https://www.linkedin.com/in/housyspace-property-solution-51b53226a/" target="_blank" className="z-10 flex flex-col items-center justify-center transition duration-300 invert hover:scale-125">
                                 <img className="size-8" src="/images/linkedin.svg" alt="Logo Linkedin" loading="lazy"/>
                                 <span className="font-semibold font-montserrat">LinkedIn</span>
                             </a>
